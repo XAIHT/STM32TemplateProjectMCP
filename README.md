@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ STM32 Template Project
+# ⚡ STM32 Template Project, MCP!
 
 <em>"scaffold → write → build → flash → verify" — STM32F4 firmware, programmatically, no IDE GUI, agent-drivable.</em>
 
