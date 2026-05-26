@@ -1,0 +1,2 @@
+# Empty by default: HAL/CMSIS are referenced from the firmware pack.
+# Run ../tools/vendor_hal.ps1 to copy them here for a self-contained project.

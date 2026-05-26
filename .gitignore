@@ -1,0 +1,19 @@
+# Build outputs
+build/
+build-*/
+*.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+
+# Python / MCP
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Editor
+.vscode/
+.idea/

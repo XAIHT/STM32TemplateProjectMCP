@@ -1,0 +1,4 @@
+# STM32 Template MCP server dependencies
+# Python 3.10+ required.
+mcp>=1.2.0
+pyserial>=3.5   # serial_* tools (VCP/UART). Server still starts without it; serial tools just warn.

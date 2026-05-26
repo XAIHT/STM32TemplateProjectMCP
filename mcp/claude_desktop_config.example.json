@@ -1,0 +1,13 @@
+{
+  "_comment": "Example MCP registration. Merge the 'stm32-template' entry into your client's MCP config: Claude Desktop -> %APPDATA%/Claude/claude_desktop_config.json, or your Super-agent's MCP server list. Adjust the python path and STM32_TEMPLATE_DIR as needed.",
+  "mcpServers": {
+    "stm32-template": {
+      "command": "python",
+      "args": ["C:/Development/STM32TemplateProject/mcp/stm32_mcp_server.py"],
+      "env": {
+        "STM32_TEMPLATE_DIR": "C:/Development/STM32TemplateProject",
+        "STM32_IDE_ROOT": "C:/ST/STM32CubeIDE_2.1.1/STM32CubeIDE"
+      }
+    }
+  }
+}

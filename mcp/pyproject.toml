@@ -1,0 +1,13 @@
+[project]
+name = "stm32-template-mcp"
+version = "0.1.0"
+description = "MCP server to scaffold, build, and flash STM32F4 firmware from a template, using the STM32CubeIDE bundled toolchain."
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2.0", "pyserial>=3.5"]
+
+[project.scripts]
+stm32-template-mcp = "stm32_mcp_server:mcp.run"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
